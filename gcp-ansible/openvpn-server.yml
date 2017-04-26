@@ -1,0 +1,68 @@
+- hosts: openvpn-server
+  become: yes
+  become_user: root
+  become_method: sudo
+
+  tasks:
+   - name: "upgrade all packages"
+     yum: name=* state=latest
+
+   - name: "setenforce selinux"
+     command: setenforce 0
+
+   - name: "set HotelQuickly timezone"
+     command: timedatectl set-timezone Asia/Bangkok
+
+   - name: "set /etc/selinux/config"
+     copy: src=files-openvpn-server/config dest=/etc/selinux/config
+   
+   - name: "set /etc/hostname"
+     copy: src=files-openvpn-server/openvpn-server-hostname dest=/etc/hostname
+
+   - name: "set /etc/hosts"
+     copy: src=files-openvpn-server/openvpn-server-hosts dest=/etc/hosts
+
+   - name: "install openvpn"
+     yum: name=openvpn state=latest
+
+   - name: "install easy-rsa"
+     yum: name=easy-rsa state=latest
+
+   - name: "copy openvpn configs"
+     copy: src=files-openvpn-server/openvpn-config.tar.gz dest=/tmp
+
+   - name: "extract openvpn config into /etc/openvpn/"
+     command: tar xvfz /tmp/openvpn-config.tar.gz -C /etc/openvpn/
+
+   - name: "install iptables-services"
+     yum: name=iptables-services state=latest
+
+   - name: "service mask firewalld"
+     command: systemctl mask firewalld
+
+   - name: "service enable iptables"
+     command: systemctl enable iptables
+
+   - name: "service stop firewalld"
+     command: systemctl stop firewalld
+
+   - name: "service start iptables"
+     command: systemctl start iptables
+
+   - name: "flush iptables"
+     command: iptables --flush
+
+   - name: "set masquerade in iptables rules"
+     command: iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE
+  
+   - name: "update rules of iptables"
+     copy: src=files-openvpn-server/iptables dest=/etc/sysconfig
+
+   - name: "restart network service"
+     command: systemctl restart network.service
+
+   - name: "service enable openvpn"
+     command: systemctl -f enable openvpn@server.service
+
+   - name: "service start openvpn"
+     command: systemctl start openvpn@server.service

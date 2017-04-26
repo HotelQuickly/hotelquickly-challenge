@@ -1,0 +1,2 @@
+[openvpn-server]
+35.185.173.239 new_hostname=openvpn-server.localdomain

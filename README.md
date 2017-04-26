@@ -49,7 +49,7 @@ We can use the Ansible for configure and test the OpenVPN Server.
 
 For example:
 
-`$ cd ansible/`
+`$ cd gcp-ansible/`
 
 `$ ansible-playbook openvpn-server.yml`
 
@@ -80,14 +80,14 @@ For example:
 
 ## Repository overview
 
-* ansible/          - Ansible resources for provisioning the OpenVPN Server
-* ansible/files     - Files pre-configured for configure this challenge
-* backup-cloud-sql/ - Codes for backup and restore instances in Cloud SQL
-* client/           - Files for a OpenVPN Client. 
-* credentials/      - JSON service account for Compute Engine provisioning 
-* gcp-utils/        - Codes for provisioning a new instance in Compute Engine
-* LICENSE           - MIT License for this challenge
-* README.md         - Documentation 
+* gcp-ansible/                  - Ansible resources for provisioning the OpenVPN Server
+* ansible/files-openvpn-server  - Files pre-configured for configure this challenge
+* backup-cloud-sql/             - Codes for backup and restore instances in Cloud SQL
+* client/                       - Files for a OpenVPN Client. 
+* credentials/                  - JSON service account for Compute Engine provisioning 
+* gcp-utils/                    - Codes for provisioning a new instance in Compute Engine
+* LICENSE                       - MIT License for this challenge
+* README.md                     - Documentation 
 
 
 
