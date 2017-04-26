@@ -98,6 +98,7 @@ All keys and credentials in this repository are only for this challenge. don't u
 
 ## TODOLIST
 **04/26/2017**
+* Implement the Terraform.io, code as infrastructure
 * Create a tests for this environment
 * Monitoring this environment using Stackdriver - Monitoring
 * Improve the hardening of OpenVPN Server and Client
