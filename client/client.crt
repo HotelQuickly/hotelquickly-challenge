@@ -1,0 +1,97 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=HK, ST=Sai Ying Pun, L=Hong Kong, O=HotelQuickly, OU=HotelQuicklyDevOpsTeam, CN=HotelQuickly CA/name=server/emailAddress=webmaster@hotelquickly.com
+        Validity
+            Not Before: Apr 25 18:01:18 2017 GMT
+            Not After : Apr 23 18:01:18 2027 GMT
+        Subject: C=HK, ST=Sai Ying Pun, L=Hong Kong, O=HotelQuickly, OU=HotelQuicklyDevOpsTeam, CN=client/name=server/emailAddress=webmaster@hotelquickly.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:dc:54:b3:33:a9:9e:34:a9:8f:86:b1:40:79:d1:
+                    ad:87:d4:21:f0:60:43:33:bd:b1:30:c1:81:71:5e:
+                    b8:35:a0:83:f2:8d:2a:62:69:fb:ba:eb:38:78:35:
+                    ed:37:d2:4a:da:c5:c0:46:5e:6e:4b:c8:e2:67:2d:
+                    63:a7:35:64:6a:ce:79:11:a9:3c:97:17:3b:11:5e:
+                    19:a6:ca:2c:51:80:17:8b:4e:2b:c1:e4:ac:a0:e8:
+                    01:8e:2e:f1:1d:76:3c:49:dd:36:43:18:a9:95:57:
+                    dc:78:55:ac:7c:ac:63:78:70:f9:77:e2:de:e0:17:
+                    38:e4:e1:55:d2:ce:21:f9:aa:bc:fb:aa:e7:f1:a3:
+                    7b:f0:a7:c2:bd:f5:b5:be:01:68:51:32:79:db:93:
+                    96:c6:89:38:49:4a:a2:2e:57:4d:e6:cd:cd:50:e8:
+                    60:1a:2d:a7:0c:af:de:48:6e:a9:1c:67:45:3e:b6:
+                    91:0f:f3:ee:13:20:18:f6:0f:da:56:4e:4d:1a:22:
+                    02:c4:65:d7:ca:3f:82:b2:f5:96:ba:ba:9d:8e:a5:
+                    a4:19:db:58:2a:0b:94:c0:c8:f4:b1:08:ca:57:69:
+                    b3:58:f7:c4:10:1b:51:2f:3e:95:68:43:a0:fc:c5:
+                    e7:ba:09:1f:1d:17:ea:4c:2b:9b:75:fa:a4:46:dd:
+                    1b:57
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                4F:76:2F:02:7F:FF:49:6B:C1:BE:57:4C:D2:53:64:41:F0:CC:BC:46
+            X509v3 Authority Key Identifier: 
+                keyid:B8:4E:3E:68:E0:CA:AB:2B:03:7B:2C:8F:80:EB:88:38:19:CA:37:BC
+                DirName:/C=HK/ST=Sai Ying Pun/L=Hong Kong/O=HotelQuickly/OU=HotelQuicklyDevOpsTeam/CN=HotelQuickly CA/name=server/emailAddress=webmaster@hotelquickly.com
+                serial:D7:12:1D:1E:47:EF:D6:9A
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+         56:ef:3b:bc:7f:df:2f:84:28:c5:96:1b:f2:9d:70:79:0e:4d:
+         27:f8:cb:34:19:fb:7f:b8:10:b7:79:ce:39:df:0c:6c:1b:68:
+         05:a8:06:be:a1:a5:d3:46:ea:77:e1:c4:e9:8a:0b:f5:a8:39:
+         0e:28:9a:a2:3a:da:66:25:82:d2:83:91:a3:70:f0:14:03:74:
+         58:b0:94:d0:ac:cf:8c:6c:b0:36:af:f0:e2:9a:ba:d7:0c:57:
+         00:f5:82:ee:a2:6b:22:e6:eb:30:e6:c2:8d:e3:33:bd:11:d9:
+         3b:84:55:58:aa:d7:e0:0e:51:0b:10:7f:7c:e1:2d:28:52:d0:
+         5c:68:7e:9f:44:a9:ff:dd:a0:2d:4d:15:0c:d5:1d:00:b1:b0:
+         02:2b:3b:b7:f0:28:18:c4:d8:1c:3d:5f:55:63:b8:75:3d:4e:
+         84:d8:03:a8:a1:1f:41:2f:35:96:a9:c0:92:8f:ff:cd:0a:c3:
+         29:c0:70:4a:bc:16:32:18:f5:8e:1e:69:36:18:a2:fd:f0:39:
+         e0:87:51:bb:3a:34:e8:fb:9a:43:a3:b0:da:82:f8:84:ab:90:
+         2e:ed:cf:f9:15:d4:ef:90:1d:e8:8d:fd:f0:9b:ae:c0:60:9c:
+         f6:08:06:12:db:44:71:eb:60:d0:4a:83:8e:48:30:b2:2c:d7:
+         3a:67:b9:7c
+-----BEGIN CERTIFICATE-----
+MIIFfzCCBGegAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBxjELMAkGA1UEBhMCSEsx
+FTATBgNVBAgTDFNhaSBZaW5nIFB1bjESMBAGA1UEBxMJSG9uZyBLb25nMRUwEwYD
+VQQKEwxIb3RlbFF1aWNrbHkxHzAdBgNVBAsTFkhvdGVsUXVpY2tseURldk9wc1Rl
+YW0xGDAWBgNVBAMTD0hvdGVsUXVpY2tseSBDQTEPMA0GA1UEKRMGc2VydmVyMSkw
+JwYJKoZIhvcNAQkBFhp3ZWJtYXN0ZXJAaG90ZWxxdWlja2x5LmNvbTAeFw0xNzA0
+MjUxODAxMThaFw0yNzA0MjMxODAxMThaMIG9MQswCQYDVQQGEwJISzEVMBMGA1UE
+CBMMU2FpIFlpbmcgUHVuMRIwEAYDVQQHEwlIb25nIEtvbmcxFTATBgNVBAoTDEhv
+dGVsUXVpY2tseTEfMB0GA1UECxMWSG90ZWxRdWlja2x5RGV2T3BzVGVhbTEPMA0G
+A1UEAxMGY2xpZW50MQ8wDQYDVQQpEwZzZXJ2ZXIxKTAnBgkqhkiG9w0BCQEWGndl
+Ym1hc3RlckBob3RlbHF1aWNrbHkuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEA3FSzM6meNKmPhrFAedGth9Qh8GBDM72xMMGBcV64NaCD8o0qYmn7
+uus4eDXtN9JK2sXARl5uS8jiZy1jpzVkas55Eak8lxc7EV4ZpsosUYAXi04rweSs
+oOgBji7xHXY8Sd02QxiplVfceFWsfKxjeHD5d+Le4Bc45OFV0s4h+aq8+6rn8aN7
+8KfCvfW1vgFoUTJ525OWxok4SUqiLldN5s3NUOhgGi2nDK/eSG6pHGdFPraRD/Pu
+EyAY9g/aVk5NGiICxGXXyj+CsvWWurqdjqWkGdtYKguUwMj0sQjKV2mzWPfEEBtR
+Lz6VaEOg/MXnugkfHRfqTCubdfqkRt0bVwIDAQABo4IBfTCCAXkwCQYDVR0TBAIw
+ADAtBglghkgBhvhCAQ0EIBYeRWFzeS1SU0EgR2VuZXJhdGVkIENlcnRpZmljYXRl
+MB0GA1UdDgQWBBRPdi8Cf/9Ja8G+V0zSU2RB8My8RjCB+wYDVR0jBIHzMIHwgBS4
+Tj5o4MqrKwN7LI+A64g4Gco3vKGBzKSByTCBxjELMAkGA1UEBhMCSEsxFTATBgNV
+BAgTDFNhaSBZaW5nIFB1bjESMBAGA1UEBxMJSG9uZyBLb25nMRUwEwYDVQQKEwxI
+b3RlbFF1aWNrbHkxHzAdBgNVBAsTFkhvdGVsUXVpY2tseURldk9wc1RlYW0xGDAW
+BgNVBAMTD0hvdGVsUXVpY2tseSBDQTEPMA0GA1UEKRMGc2VydmVyMSkwJwYJKoZI
+hvcNAQkBFhp3ZWJtYXN0ZXJAaG90ZWxxdWlja2x5LmNvbYIJANcSHR5H79aaMBMG
+A1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0BAQsFAAOC
+AQEAVu87vH/fL4QoxZYb8p1weQ5NJ/jLNBn7f7gQt3nOOd8MbBtoBagGvqGl00bq
+d+HE6YoL9ag5DiiaojraZiWC0oORo3DwFAN0WLCU0KzPjGywNq/w4pq61wxXAPWC
+7qJrIubrMObCjeMzvRHZO4RVWKrX4A5RCxB/fOEtKFLQXGh+n0Sp/92gLU0VDNUd
+ALGwAis7t/AoGMTYHD1fVWO4dT1OhNgDqKEfQS81lqnAko//zQrDKcBwSrwWMhj1
+jh5pNhii/fA54IdRuzo06PuaQ6Ow2oL4hKuQLu3P+RXU75Ad6I398JuuwGCc9ggG
+EttEcetg0EqDjkgwsizXOme5fA==
+-----END CERTIFICATE-----
